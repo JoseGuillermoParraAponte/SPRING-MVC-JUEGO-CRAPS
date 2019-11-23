@@ -1,0 +1,20 @@
+*{
+padding: 0px;
+margin: 0px;
+}
+
+body{
+    background: rgb(193, 214, 214);
+}
+
+#contenedorprincipal{
+
+    background: rgb(214, 211, 206);
+    width: 500px;
+    height: 200px;
+    margin-top: 200px;
+    margin-top: ;
+    margin-left: 250px;
+    
+
+}

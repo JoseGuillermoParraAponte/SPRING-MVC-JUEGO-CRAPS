@@ -1,0 +1,152 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	background: rgb(221, 236, 236);
+	font-family: 'Times New Roman', Times, serif;
+}
+
+#contenedor {
+	width: 960px;
+	margin: auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+header {
+	height: 250px;
+	background: #8b9b87;
+}
+
+header h1 {
+	font-size: 30px;
+	text-align: center;
+	line-height: 200px;
+}
+
+header img {
+	text-align: center;
+	padding-top: 30px;
+}
+
+.contenedorheader {
+	margin: 10px;
+	float: left;
+}
+
+#nav {
+	margin: auto;
+	width: 960px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav {
+	background: hsl(150, 29%, 45%);
+	height: 40px;
+	margin-top: 10px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1em;
+}
+
+.nav>li {
+	float: left;
+}
+
+ul, li {
+	list-style: none;
+}
+
+.nav li a {
+	color: #070000;
+	text-decoration: none;
+	padding: 10px 40px;
+	display: block;
+}
+
+.nav li a:hover {
+	background-color: #c4bdbd;
+}
+
+.nav li ul {
+	display: none;
+	position: absolute;
+	min-width: 140px;
+}
+
+.nav li:hover>ul {
+	display: block;
+}
+
+.nav li ul li {
+	position: relative;
+}
+
+.nav li ul li ul {
+	right: -140px;
+	top: 0px;
+}
+
+nav ul li a:hover {
+	background-color: rgb(184, 187, 207);
+}
+
+.submenu {
+	position: absolute;
+	background: darkgray;
+}
+
+.submenu li a {
+	display: block;
+	padding: 15px;
+	color: darkgreen;
+	font-family: cursive;
+	text-decoration: none;
+}
+
+aside {
+	margin-top: 10px;
+	width: 240px;
+	background: hsl(150, 4%, 69%);
+	float: left;
+}
+
+aside h2 {
+	color: darkblue;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+aside p, h2, h3 {
+	margin: 10px;
+	padding: 10px;
+	font-family: cursive;
+}
+
+section {
+	margin-top: 10px;
+	width: 720px;
+	float: right;
+}
+
+section h1, h2 {
+	color: darkblue;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	margin: 10px;
+	padding: 10px;
+}
+
+section p {
+	margin: 10px;
+	padding: 10px;
+	font-family: cursive;
+}
+
+footer {
+	margin-top: 10px;
+	width: 960px;
+	background: #cfcfca;
+	height: 30px;
+	text-align: center;
+	float: right;
+}
